@@ -1,0 +1,30 @@
+{
+  "name": "gym-api",
+  "version": "1.0.0",
+  "description": "a simple gym api with oauth2 authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "author": "Boniface Oghenekaro Kelvin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "email-sender": "^1.0.4",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "googleapis": "^144.0.0",
+    "gym-api": "file:",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

@@ -9,7 +9,7 @@ const app = express();
 // global middleware configuration for cors
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://gym-full-app.vercel.app"],
     credentials: true,
   })
 );

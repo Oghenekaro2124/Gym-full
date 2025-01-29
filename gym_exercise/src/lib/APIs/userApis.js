@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCurrentUser } from "../redux/userSlice";
 
-let baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+let baseUrl = process.env.REACT_APP_BASE_URL || "https://gym-full.onrender.com";
 
 export const userApis = createApi({
   reducerPath: "userApis",
